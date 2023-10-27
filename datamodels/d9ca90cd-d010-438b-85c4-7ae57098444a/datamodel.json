@@ -1,0 +1,24 @@
+{
+    "buildDestination": {
+        "destination": "elasticube"
+    },
+    "datasets": [
+        "./843828ae-3db0-44bf-8ec9-fe043c4993b7/dataset.json"
+    ],
+    "experiments": {
+    },
+    "fiscal": "system",
+    "lastSuccessfulManualBuildStartTime": "2023-10-06T06:34:12.178Z",
+    "modelStatistics": {
+        "enableModelStatistics": false,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "oid": "d9ca90cd-d010-438b-85c4-7ae57098444a",
+    "relationType": "regular",
+    "relations": "./relations.json",
+    "schemaId": null,
+    "shouldUpdateScheduleOnManualBuild": null,
+    "title": "DW2_v01",
+    "type": "extract"
+}

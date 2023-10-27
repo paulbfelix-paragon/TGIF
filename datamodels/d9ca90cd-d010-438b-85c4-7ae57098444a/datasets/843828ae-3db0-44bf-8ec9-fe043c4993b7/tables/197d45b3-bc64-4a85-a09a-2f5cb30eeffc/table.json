@@ -1,0 +1,174 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "05797e0f-fbfa-4edc-8005-bc161ca49cc2",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "fc886bb9-3182-4385-bddc-168bd61628df",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Start",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Start",
+            "oid": "6edd322b-29f2-4975-81e2-9beb73e96eb2",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_End",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_End",
+            "oid": "fca334df-c793-4d66-a525-7a9d14606308",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Current",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Current",
+            "oid": "7a05422f-3be3-4f10-a8b0-dcc9c6eb9d35",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "119f871f-33a6-4a7d-b030-678214e1187a",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LOB",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LOB",
+            "oid": "4de401ea-8cad-44f2-bb91-604ea7f39d05",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "LimitLevel",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LimitLevel",
+            "oid": "3a5cbbd7-c359-47a2-bfcc-13d02e94c607",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "LimitName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LimitName",
+            "oid": "b6f990f2-5721-4776-95fc-8a1d75584d0c",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "LimitDefinition_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LimitDefinition_ID",
+            "oid": "d2f29d8c-cd03-4886-990d-d1867afb7c41",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "LimitID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LimitID",
+            "oid": "b7bff8d0-944e-4939-aca1-7b98ef54d9ec",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LimitUniqueID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LimitUniqueID",
+            "oid": "2726ae4d-9f84-42a9-8381-ec5fc8f01e8c",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "sublob",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "sublob",
+            "oid": "1bf37764-9673-408d-8f9f-e0c23a256481",
+            "precision": 0,
+            "scale": 0,
+            "size": 4,
+            "type": 22
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_Limit",
+    "isMaterialized": false,
+    "name": "dw.d_Limit",
+    "oid": "197d45b3-bc64-4a85-a09a-2f5cb30eeffc",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

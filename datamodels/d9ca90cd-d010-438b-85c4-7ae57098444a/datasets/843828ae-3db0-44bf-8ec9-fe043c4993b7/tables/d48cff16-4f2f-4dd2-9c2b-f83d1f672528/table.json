@@ -1,0 +1,186 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "465fa94e-1335-4962-bc59-0428fdc88b42",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_RecordTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_RecordTime",
+            "oid": "409340d6-c552-47a0-a6c3-afb7c8a55590",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "FK_PolicyTransactionNote",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_PolicyTransactionNote",
+            "oid": "e3f87156-1a28-40d3-b23b-ffee4e6f8768",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_PolicyTransaction",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_PolicyTransaction",
+            "oid": "78d64c4e-8a3c-4f5b-a733-777884cd2c9a",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_NoteCreateDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_NoteCreateDate",
+            "oid": "c3c989a1-241c-479b-9a8f-00cfdf598022",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_NoteDueDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_NoteDueDate",
+            "oid": "d8b55947-eea6-4500-9fcd-69ab6a55f3d3",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_NoteCompleteDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_NoteCompleteDate",
+            "oid": "49349ac7-bf99-4852-a28c-fe65548167eb",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "f6af28b0-f53e-4aa5-be65-646051e7e0bb",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "QuoteID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "QuoteID",
+            "oid": "3c9bca77-14d0-47fb-a74e-7c8734144b13",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "NoteEntitiesID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "NoteEntitiesID",
+            "oid": "557ffc63-f70e-4bcd-ab61-d8588c0ec342",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 14
+        },
+        {
+            "hidden": false,
+            "id": "Note_DaysOfAge",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Note_DaysOfAge",
+            "oid": "abcef721-c5fa-4064-8920-cfb8306d896c",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Note_DaysOfAge_Bucket",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Note_DaysOfAge_Bucket",
+            "oid": "153e21df-76b9-43f9-82cb-12d3e4ac6e26",
+            "precision": 0,
+            "scale": 0,
+            "size": 22,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "FK_Policy",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_Policy",
+            "oid": "5afe78bd-ea94-4002-954b-c3cb8905a9e9",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "isLastTransactionWithNoteOnPolicy",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "isLastTransactionWithNoteOnPolicy",
+            "oid": "71516db8-7610-4ba7-bb62-46147304593f",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "f_PolicyTransactionNote",
+    "isMaterialized": false,
+    "name": "dw.f_PolicyTransactionNote",
+    "oid": "d48cff16-4f2f-4dd2-9c2b-f83d1f672528",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

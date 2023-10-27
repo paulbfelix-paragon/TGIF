@@ -1,0 +1,186 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "2c0a2f64-a1cc-4f21-a8ef-4a76029c9b49",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "11bdd93b-2286-4676-a41f-591ff6925538",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "FullDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FullDate",
+            "oid": "ff4f6828-f11e-4adc-bf00-05fdeabb2ec9",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "Year",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Year",
+            "oid": "cb042efa-2f35-4ac4-9829-f5a6855af799",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Quarter",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Quarter",
+            "oid": "ee1a53d8-cc90-49e0-9c84-d8e1686795c1",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 12
+        },
+        {
+            "hidden": false,
+            "id": "Quarter of Year",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Quarter of Year",
+            "oid": "090d8c81-80f1-4ba4-87b6-86be00596a65",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Month",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Month",
+            "oid": "357308a7-e6fd-40b5-ada5-fc2089321767",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 12
+        },
+        {
+            "hidden": false,
+            "id": "Month of Year",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Month of Year",
+            "oid": "be09f2da-ea15-43a3-a06d-998e70c2a673",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Week",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Week",
+            "oid": "9e4c5ba8-e8fb-49f0-aaa3-f65f0c526ebb",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 12
+        },
+        {
+            "hidden": false,
+            "id": "Week of Year",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Week of Year",
+            "oid": "591b96ad-c013-4b7c-875e-419569925b30",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Day",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Day",
+            "oid": "05018a3f-fe45-4023-a441-6e5a81047a12",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 12
+        },
+        {
+            "hidden": false,
+            "id": "Day of Week",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Day of Week",
+            "oid": "5c78dba6-9d72-4aab-b904-71d54482a9b2",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Day of Month",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Day of Month",
+            "oid": "73d68b84-e570-48ee-9085-84a289931eb5",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Day of Year",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Day of Year",
+            "oid": "ed13d99b-e0ee-49cc-9fb8-7cdd6e8d222a",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_NoteCompleteDate",
+    "isMaterialized": false,
+    "name": "dw.d_NoteCompleteDate",
+    "oid": "76362ed3-1b40-49ae-a864-5ded519a29af",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

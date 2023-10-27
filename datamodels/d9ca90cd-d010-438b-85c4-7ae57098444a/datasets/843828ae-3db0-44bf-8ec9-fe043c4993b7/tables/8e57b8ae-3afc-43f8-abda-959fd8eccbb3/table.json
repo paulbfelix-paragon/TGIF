@@ -1,0 +1,114 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "57ec98da-f43d-4d0b-b4d8-242cffa0813b",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_RecordTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_RecordTime",
+            "oid": "6d2e3e1b-8177-4e49-8633-498b28ceeada",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "FK_Policy",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_Policy",
+            "oid": "fe15994f-e4a7-483a-a375-cc8ba6c013ee",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_PolicyTransaction",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_PolicyTransaction",
+            "oid": "87b5ad52-d733-4c7a-9156-e8a3a98fafb6",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_State",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_State",
+            "oid": "4110d459-dae3-4316-bf37-994a956aaa13",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_Source",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_Source",
+            "oid": "f2bd18d0-d5ca-47c0-bfd1-61b02ec68605",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "b68de37f-cdad-4a5f-a231-28874ce7eb69",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "StateID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "StateID",
+            "oid": "bbe6c1e4-9f83-4743-81f3-d0e9ddeecfb1",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "f_PolicyTransactionState",
+    "isMaterialized": false,
+    "name": "dw.f_PolicyTransactionState",
+    "oid": "8e57b8ae-3afc-43f8-abda-959fd8eccbb3",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

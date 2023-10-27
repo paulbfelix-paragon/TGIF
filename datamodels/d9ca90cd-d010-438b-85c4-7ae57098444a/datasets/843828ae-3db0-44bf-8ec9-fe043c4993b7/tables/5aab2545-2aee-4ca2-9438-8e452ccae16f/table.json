@@ -1,0 +1,187 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "bf340978-407e-427a-b0ab-41c7cf55a960",
+            "precision": 27,
+            "scale": 7,
+            "size": 50,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_RecordTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_RecordTime",
+            "oid": "9c00116a-94e5-43bf-995b-5140ffe6eccf",
+            "precision": 27,
+            "scale": 7,
+            "size": 50,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "FK_PolicyTransactionLineCreatedDates",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_PolicyTransactionLineCreatedDates",
+            "oid": "34c272f4-4793-41b9-b0e6-d2f822cd8ee1",
+            "precision": 10,
+            "scale": 0,
+            "size": 10,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_Policy",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_Policy",
+            "oid": "01e3c43c-3707-496a-ab0b-4fe44b384f42",
+            "precision": 10,
+            "scale": 0,
+            "size": 10,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_PolicyTransaction",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_PolicyTransaction",
+            "oid": "9bb48e42-ca39-45de-890d-641fa637db69",
+            "precision": 10,
+            "scale": 0,
+            "size": 10,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_PolicyTransactionLine",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_PolicyTransactionLine",
+            "oid": "ac87f7e3-f1ca-4268-90de-18639e25da7a",
+            "precision": 10,
+            "scale": 0,
+            "size": 10,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_Source",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_Source",
+            "oid": "17cf5203-b6ee-4862-ac5e-985a7e7f2379",
+            "precision": 10,
+            "scale": 0,
+            "size": 10,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_LineOfBusiness",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "FK_LineOfBusiness",
+            "oid": "c2c6f1ed-7724-4762-bb7c-7bd5f02d63c4",
+            "precision": 115,
+            "scale": 0,
+            "size": 115,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "QuoteOptionID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "QuoteOptionID",
+            "oid": "47aba014-71a6-4d12-91e7-51c668975a6f",
+            "precision": 10,
+            "scale": 0,
+            "size": 10,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "TotalFees",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TotalFees",
+            "oid": "fe7fe502-20a4-4b85-bf2a-9cdee63226ab",
+            "precision": 19,
+            "scale": 4,
+            "size": 20,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "Premium",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Premium",
+            "oid": "76e36bd6-a8c6-4a60-9752-17f5571da19c",
+            "precision": 19,
+            "scale": 4,
+            "size": 20,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "isLineOnPolicy",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "isLineOnPolicy",
+            "oid": "7910644e-ea4d-4956-8af1-4d2e741bbcb5",
+            "precision": 10,
+            "scale": 0,
+            "size": 10,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_SubLOB_Conformed",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "FK_SubLOB_Conformed",
+            "oid": "76765664-1786-402f-ae04-6e2c72474881",
+            "precision": 4,
+            "scale": 0,
+            "size": 4,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "FK_UnderwriterAssistant",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "FK_UnderwriterAssistant",
+            "oid": "bc26aee5-2dbb-4749-b803-3b5cbbb94a5e",
+            "precision": 10,
+            "scale": 0,
+            "size": 10,
+            "type": 8
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "f_PolicyTransactionLine",
+    "isMaterialized": false,
+    "name": "dw.f_PolicyTransactionLine",
+    "oid": "5aab2545-2aee-4ca2-9438-8e452ccae16f",
+    "schemaName": "dw",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

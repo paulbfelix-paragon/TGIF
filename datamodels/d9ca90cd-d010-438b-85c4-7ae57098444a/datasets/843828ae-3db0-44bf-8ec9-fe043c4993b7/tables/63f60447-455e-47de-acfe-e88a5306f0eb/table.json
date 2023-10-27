@@ -1,0 +1,210 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "0e54caea-25ed-4e9b-8eb2-8afe42052bad",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "c0fe7d19-8af9-45c2-aba9-e0aaf3d3f142",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "Forecast Date",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Forecast Date",
+            "oid": "1eba5e98-1f4e-49b5-a64c-7651ee73518a",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 31
+        },
+        {
+            "hidden": false,
+            "id": "Forecast Year",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Forecast Year",
+            "oid": "0abce3e1-7ebc-489a-8184-2bf7126477a1",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Forecast Quarter",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Forecast Quarter",
+            "oid": "c675d65c-0984-46ba-bf6c-0582c228b7d1",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 12
+        },
+        {
+            "hidden": false,
+            "id": "Forecast Quarter of Year",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Forecast Quarter of Year",
+            "oid": "c27c4e9f-d85f-458a-9cbc-797a02001bf0",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Forecast Month",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Forecast Month",
+            "oid": "b1b924a4-fb78-4e18-b066-3f7d16cafb13",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 12
+        },
+        {
+            "hidden": false,
+            "id": "Forecast Month of Year",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Forecast Month of Year",
+            "oid": "5b801bdd-c499-4fc9-b79a-97040fbc9f90",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Forecast Week",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Forecast Week",
+            "oid": "08d1f2d0-9eeb-4553-86aa-d8d3d8d1f812",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 12
+        },
+        {
+            "hidden": false,
+            "id": "Forecast Week of Year",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Forecast Week of Year",
+            "oid": "2b4939f2-a4c7-4f40-aacd-bbacdf4ca8d3",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Forecast Day",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Forecast Day",
+            "oid": "2670d9b3-8dd1-4dde-a437-1166bac1b126",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 12
+        },
+        {
+            "hidden": false,
+            "id": "Forecast Day of Week",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Forecast Day of Week",
+            "oid": "e4a8a32c-8554-433c-9cdf-0dcfa15556a3",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Forecast Day of Month",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Forecast Day of Month",
+            "oid": "67e43163-0919-4a79-a28e-601e9b064303",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Forecast Day of Year",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Forecast Day of Year",
+            "oid": "b6eb6abf-b99d-440a-ac71-670f32d8c79e",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Forecast Year Quarter",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Forecast Year Quarter",
+            "oid": "a5f89fab-08df-4b39-9a40-374c44846834",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 12
+        },
+        {
+            "hidden": false,
+            "id": "Forecast Year Month",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Forecast Year Month",
+            "oid": "d6d22bfa-ab6d-4069-b8d0-761ea1323f23",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_ForecastDate",
+    "isMaterialized": false,
+    "name": "dw.d_ForecastDate",
+    "oid": "63f60447-455e-47de-acfe-e88a5306f0eb",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

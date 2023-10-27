@@ -1,0 +1,198 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "91cf886e-ad53-4d9c-93d7-3583af8ccf13",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "a3d92a76-6d15-4144-97ab-6655d53a37ee",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Start",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Start",
+            "oid": "0b3a9a43-bed1-4680-b61f-ac2fe20b9c2e",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_End",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_End",
+            "oid": "83b38da2-2031-4605-94d7-7b6f9c84c500",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Current",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Current",
+            "oid": "f9dfb571-f3b4-4101-9b80-1ae871021626",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "ControlNo",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ControlNo",
+            "oid": "98cf2562-92b5-4588-858c-840799fbe6e8",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "308e40a5-4ee0-4c1d-a4cf-3343623649de",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "ControlGuid",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ControlGuid",
+            "oid": "daf77016-ce33-49bf-baa9-65b509cd40f2",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 14
+        },
+        {
+            "hidden": false,
+            "id": "RenewalOfControlNum",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "RenewalOfControlNum",
+            "oid": "01621072-ff4a-412f-8bdf-496a81437e61",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "PolicyNumber",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "PolicyNumber",
+            "oid": "c8a26a45-2627-46c9-99c2-e1c7e8ef2d7e",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "ExpiringPolicyNumber",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ExpiringPolicyNumber",
+            "oid": "ab95795a-fe91-45c3-aa6d-7663dffa4f3b",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "StrippedPolicyNumber",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "StrippedPolicyNumber",
+            "oid": "9434ec05-0074-410f-a1fe-8306d109392a",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "Status",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Status",
+            "oid": "4d89cc6b-e168-4c6e-8127-f3614724b774",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "PolicyType",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "PolicyType",
+            "oid": "81b9e393-f442-4769-96c1-f22cd4494af2",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "RenewalType",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "RenewalType",
+            "oid": "ac040a3e-5b64-45de-841d-d3584b3eabc2",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_RenewalOfPolicy",
+    "isMaterialized": false,
+    "name": "dw.d_RenewalOfPolicy",
+    "oid": "f6bceba4-32c6-43b9-8ae9-ba468db3b0a0",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

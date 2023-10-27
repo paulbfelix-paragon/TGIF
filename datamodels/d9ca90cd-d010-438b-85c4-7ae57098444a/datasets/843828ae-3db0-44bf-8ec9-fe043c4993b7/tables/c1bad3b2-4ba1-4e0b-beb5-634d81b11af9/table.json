@@ -1,0 +1,138 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "a9cea2b7-cf0d-4dd3-993e-6f5f454df016",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_RecordTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_RecordTime",
+            "oid": "fcb494aa-2a1b-4a08-b7ee-9051dfc40e7e",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "FK_AdditionalInterest",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_AdditionalInterest",
+            "oid": "63236f71-1eff-470a-981c-375b9954803d",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_InterestType",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_InterestType",
+            "oid": "727b10e3-2b49-4404-8654-824cc9240d47",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_PolicyTransaction",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_PolicyTransaction",
+            "oid": "cd100106-c4b8-4be9-8d85-2ccb2146576f",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_Source",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_Source",
+            "oid": "c2636cc0-012f-450d-979d-ca71e9837f28",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "e7820d08-10d5-491e-8b07-849acf049a95",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "AdditionalInterestID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "AdditionalInterestID",
+            "oid": "875a6b2c-691a-4e04-9b23-4efb3e95f5be",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "AdditionalInterestTypeID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "AdditionalInterestTypeID",
+            "oid": "6ec24681-159f-4790-8ba2-5c84e13a146e",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "QuoteID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "QuoteID",
+            "oid": "d358726b-6c5f-4e97-b8e8-14508d4e96e5",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "f_AdditionalInterest",
+    "isMaterialized": false,
+    "name": "dw.f_AdditionalInterest",
+    "oid": "c1bad3b2-4ba1-4e0b-beb5-634d81b11af9",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

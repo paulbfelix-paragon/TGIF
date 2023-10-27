@@ -1,0 +1,210 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "d59232ec-b2e8-4a35-a8cb-a668363cdefd",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "894766a3-67cd-42a4-a30b-3849aa98814c",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Start",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Start",
+            "oid": "1daacf15-658e-460c-af41-1956c9e770ac",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_End",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_End",
+            "oid": "aa670080-02d7-47fd-9033-093599a35824",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Current",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Current",
+            "oid": "d477436e-8005-4ba4-ab74-808f9e4fae1c",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "ExcessExposuresID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ExcessExposuresID",
+            "oid": "159bdaaf-6d24-4fbe-8d20-c66293bdb4ba",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LocationID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LocationID",
+            "oid": "04efeabd-ae16-4d36-a7ed-66bfe5e1e0f0",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "a995fde2-0091-4929-9e43-6774e23fd9a3",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "ClassCodeDescription",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ClassCodeDescription",
+            "oid": "883e6a0c-fda5-4c26-8001-efe3708a7e8c",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "ClassCode",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ClassCode",
+            "oid": "e954a8e0-13f1-411f-b8dc-1cbfda3db5dc",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "ExposureBasis",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ExposureBasis",
+            "oid": "ac32b57b-5ca3-4908-97fb-72ea1cc94312",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "ExposureKey",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ExposureKey",
+            "oid": "11ae929c-ce5f-4bb4-a6e7-d553414f914d",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "Layer",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Layer",
+            "oid": "d4bd631d-c96c-468c-bd00-23ac7d807511",
+            "precision": 0,
+            "scale": 0,
+            "size": 100,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "Carrier",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Carrier",
+            "oid": "d759add3-5861-42d9-8db9-7410dc4cb766",
+            "precision": 0,
+            "scale": 0,
+            "size": 255,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "ExcessPolicyNumber",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ExcessPolicyNumber",
+            "oid": "77311427-a842-4665-831b-4ca27f520bbb",
+            "precision": 0,
+            "scale": 0,
+            "size": 255,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "VehicleCount",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "VehicleCount",
+            "oid": "08d885e5-1164-4153-92ba-f03dad409a8b",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_ExposureExcess",
+    "isMaterialized": false,
+    "name": "dw.d_ExposureExcess",
+    "oid": "70417fc1-6929-4f8d-a268-888aec69e247",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

@@ -1,0 +1,6 @@
+{
+    "oid": "d3f80589-7522-4386-b3b3-34c4d23df773",
+    "provider": "sql",
+    "schema": "dw",
+    "timeout": 300
+}

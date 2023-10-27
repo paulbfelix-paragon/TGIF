@@ -1,0 +1,126 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "1535a350-e46b-4149-bbde-25ce6d2c6a5b",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "de118d59-e946-4580-a7dd-062589f0eafc",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Start",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Start",
+            "oid": "20f97972-0c2e-4c6b-af30-c863345e97d0",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_End",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_End",
+            "oid": "6614d770-7803-4a5d-ab44-eae62ce9bde2",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Current",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Current",
+            "oid": "9454a91b-6537-4262-b2f3-aa08eb04ba5a",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "535d8b7f-3fd3-4b29-b3ce-2cf27600f217",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "InterestType",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "InterestType",
+            "oid": "819da7ff-07d5-483a-a0c5-c0bf56a7078b",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "AdditionalInterest",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "AdditionalInterest",
+            "oid": "00859571-dfc0-449f-9e9e-346e1dd50fdd",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "isDisabled",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "isDisabled",
+            "oid": "428d34da-c90f-4964-8e7e-52498e3e5395",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_InterestType",
+    "isMaterialized": false,
+    "name": "dw.d_InterestType",
+    "oid": "303ccf5f-a48f-43e9-8895-d4c25d09e89f",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

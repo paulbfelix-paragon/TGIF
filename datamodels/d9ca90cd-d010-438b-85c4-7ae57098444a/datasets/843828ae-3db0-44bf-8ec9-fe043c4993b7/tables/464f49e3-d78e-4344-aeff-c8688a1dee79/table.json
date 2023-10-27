@@ -1,0 +1,186 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "ff82d50d-709e-4faa-8df3-f12b916769ce",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "32351636-5e71-437f-a4f3-7572d7823489",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Start",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Start",
+            "oid": "fec5d93e-2221-4d10-a174-271d2341d6f7",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_End",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_End",
+            "oid": "7f8fe823-a78c-4f0d-96dd-0b1b1106ce9f",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Current",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Current",
+            "oid": "8ef1376c-5cad-4d34-9bdf-0dacfc7d3f76",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "QuoteOptionID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "QuoteOptionID",
+            "oid": "8dd2c1c4-21fd-4cde-8607-bf127295c539",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "c31b48ee-c719-4328-81d0-e51add2fbe5c",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "QuoteOptionGUID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "QuoteOptionGUID",
+            "oid": "fb1864de-1c44-4357-a66f-7762ec4bdef0",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 14
+        },
+        {
+            "hidden": false,
+            "id": "OriginalQuoteOptionGUID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OriginalQuoteOptionGUID",
+            "oid": "17cc548a-ffde-48a3-aec8-ba0ebc5e2f2a",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 14
+        },
+        {
+            "hidden": false,
+            "id": "LineID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LineID",
+            "oid": "b0c35054-4930-433e-a5ba-9edbd673071a",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LineGUID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LineGUID",
+            "oid": "67c7ad35-a316-48e7-9c70-bc0a27365d9b",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 14
+        },
+        {
+            "hidden": false,
+            "id": "LineName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LineName",
+            "oid": "04dd3d0b-0d9e-4c9c-bad7-f8c3d3a3d719",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "LineCode",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LineCode",
+            "oid": "31bfe949-e7f9-4528-ac7c-0fef88faac70",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "RatingType",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "RatingType",
+            "oid": "2c7e4299-d586-42c5-b725-0f4437d8ab75",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 22
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_PolicyTransactionLine",
+    "isMaterialized": false,
+    "name": "dw.d_PolicyTransactionLine",
+    "oid": "464f49e3-d78e-4344-aeff-c8688a1dee79",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

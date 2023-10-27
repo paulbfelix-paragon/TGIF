@@ -1,0 +1,138 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "FK_ForecastDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_ForecastDate",
+            "oid": "f60283cd-c748-4227-aba3-68fca923c3ae",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_PolicyEffectiveDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_PolicyEffectiveDate",
+            "oid": "5777c5fc-e059-4c9b-b8d8-920487adc7d9",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_Program",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_Program",
+            "oid": "cb0dde56-9a2b-4e4f-bb9d-78fbf6b1b36c",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "GroupID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "GroupID",
+            "oid": "5e4a422c-077c-4e73-b1ec-e43dad2c9f32",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "ForecastDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ForecastDate",
+            "oid": "4ff349bb-1419-40ac-8e73-43bc09acbaa3",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 31
+        },
+        {
+            "hidden": false,
+            "id": "Planned_Written_Premium",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Planned_Written_Premium",
+            "oid": "171c1b70-2b88-4026-a922-a63c49ba7cb3",
+            "precision": 19,
+            "scale": 16,
+            "size": 8,
+            "type": 9
+        },
+        {
+            "hidden": false,
+            "id": "Planned_Revenue",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Planned_Revenue",
+            "oid": "d88335be-ace6-496c-b617-91c3bcffe062",
+            "precision": 19,
+            "scale": 16,
+            "size": 8,
+            "type": 9
+        },
+        {
+            "hidden": false,
+            "id": "PremiumForecastRenewal",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "PremiumForecastRenewal",
+            "oid": "58135a96-d5a5-43a9-bf89-090a19720311",
+            "precision": 19,
+            "scale": 16,
+            "size": 8,
+            "type": 9
+        },
+        {
+            "hidden": false,
+            "id": "PremiumForecastNew",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "PremiumForecastNew",
+            "oid": "3364078e-fcc8-429c-a77c-5f5064da7c56",
+            "precision": 19,
+            "scale": 16,
+            "size": 8,
+            "type": 9
+        },
+        {
+            "hidden": false,
+            "id": "RateChangeForecast",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "RateChangeForecast",
+            "oid": "664f36c8-fe52-452f-9978-35a112b51f73",
+            "precision": 19,
+            "scale": 16,
+            "size": 8,
+            "type": 9
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "f_MasterPlan",
+    "isMaterialized": false,
+    "name": "dw.f_MasterPlan",
+    "oid": "f33f0ac2-5628-4beb-ac70-9dd41990c976",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

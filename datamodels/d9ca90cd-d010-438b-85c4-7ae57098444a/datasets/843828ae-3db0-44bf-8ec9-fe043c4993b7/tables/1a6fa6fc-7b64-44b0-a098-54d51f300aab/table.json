@@ -1,0 +1,138 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "f7b7de04-e82c-4c48-b71b-f1cb1b14b9c6",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "c1171cd9-16c5-41bf-ae8f-9184c81a81b4",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Start",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Start",
+            "oid": "7a779aae-10fe-49f8-9045-8cf4b3dbfa02",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_End",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_End",
+            "oid": "e6d3f662-55ae-4c02-b324-c33ae4205ce2",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Current",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Current",
+            "oid": "eadbbcaa-4bbd-4f52-89fd-97237a016790",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "CrimeID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CrimeID",
+            "oid": "219a7983-ff41-477b-b928-34804a162bd8",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "d9a845ed-fff8-48a3-b46d-86125a563bd2",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "ClassCode",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ClassCode",
+            "oid": "694c8fbf-52e5-4ccf-a855-a781f20d7379",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "Description",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Description",
+            "oid": "d4988380-b300-4257-9aca-e83234d363d6",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "ExposureKey",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ExposureKey",
+            "oid": "17a28ba4-9437-4969-a119-8f6eb27d77ad",
+            "precision": 0,
+            "scale": 0,
+            "size": 112,
+            "type": 22
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_ExposureCrime",
+    "isMaterialized": false,
+    "name": "dw.d_ExposureCrime",
+    "oid": "1a6fa6fc-7b64-44b0-a098-54d51f300aab",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

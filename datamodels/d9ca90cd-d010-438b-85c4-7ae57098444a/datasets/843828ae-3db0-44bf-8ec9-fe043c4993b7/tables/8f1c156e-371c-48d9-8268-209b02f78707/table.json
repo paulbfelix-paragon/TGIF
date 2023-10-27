@@ -1,0 +1,114 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "b6cc4c5f-6e55-4a75-83a0-5f9ddc0f0e87",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Program_LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Program_LFBI_ID",
+            "oid": "bb4a4f17-991a-47e3-9b72-531c37a7c20d",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "GroupID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "GroupID",
+            "oid": "5579cea2-a606-421c-b2ce-933635a06f16",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "ProgramYear",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProgramYear",
+            "oid": "11c8b89e-7ba2-4f62-bde1-8ca24a234dad",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "PolicyEffectiveStartDate_LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "PolicyEffectiveStartDate_LFBI_ID",
+            "oid": "b1b96620-0d2f-4200-a8dc-80df0783fe21",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "ProgramPolicyEffectiveStartDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProgramPolicyEffectiveStartDate",
+            "oid": "9e41b154-afd0-457c-a9a7-5787b46edd08",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 31
+        },
+        {
+            "hidden": false,
+            "id": "PolicyEffectiveEndDate_LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "PolicyEffectiveEndDate_LFBI_ID",
+            "oid": "a3d31c79-cd54-40b5-9436-dd829781a490",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "ProgramPolicyEffectiveEndDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProgramPolicyEffectiveEndDate",
+            "oid": "067c06ad-78d0-434c-8b60-e912a357e069",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 31
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_ProgramYear",
+    "isMaterialized": false,
+    "name": "dw.d_ProgramYear",
+    "oid": "8f1c156e-371c-48d9-8268-209b02f78707",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

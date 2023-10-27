@@ -1,0 +1,114 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "8163ee83-d659-4e64-9ae3-0c3435f29814",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "8a8db975-369f-48df-b9a8-35c56fbc2d65",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Start",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Start",
+            "oid": "bdb5dbfc-b563-4cfd-853e-7c6fde05f8a8",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_End",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_End",
+            "oid": "7a4b0281-89a4-4517-8c36-b849ad8d9f09",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Current",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Current",
+            "oid": "5543214b-9590-4b77-8f64-6ea76c9d557f",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "StateID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "StateID",
+            "oid": "61d6cfc5-d4e7-44aa-9a15-67925bd5430e",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "State",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "State",
+            "oid": "6df4760a-7ebf-4ae3-8f5d-ad967bdddaaf",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "IsUsState",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "IsUsState",
+            "oid": "3c8343e1-8ec3-4441-97f2-9cf379094806",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_State",
+    "isMaterialized": false,
+    "name": "dw.d_State",
+    "oid": "64724c8a-f565-4679-ac51-ccf49d372f50",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

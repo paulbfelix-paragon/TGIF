@@ -1,0 +1,150 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "9ec49db3-21b0-4f85-a186-96c41fc15a6f",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "18db2cca-7e6b-4cb2-8ad9-10d9ad1a0fe4",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Start",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Start",
+            "oid": "1e072d28-52fd-4cb0-a50e-6baf9893aa0b",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_End",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_End",
+            "oid": "981e8c99-b8e4-44f6-a7ef-55a6434c2e08",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Current",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Current",
+            "oid": "381511fb-6677-4977-b60a-bd5791683677",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "BusinessAutoID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "BusinessAutoID",
+            "oid": "7e3e48db-ae4c-4fd2-bc3f-9879a71c3795",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "c341e039-8205-4a19-b0b6-050c643bee99",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "ClassCode",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ClassCode",
+            "oid": "394fd319-273f-4777-8e97-038a32d93ed3",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "ClassCodeDescription",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ClassCodeDescription",
+            "oid": "818e09d4-e999-4f44-99c4-52265df2fcd0",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "ExposureKey",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ExposureKey",
+            "oid": "0a914b26-ce1a-45e0-a9ba-8f1789d728f8",
+            "precision": 0,
+            "scale": 0,
+            "size": 112,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "LocationNumber",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LocationNumber",
+            "oid": "49d78b0e-0666-4caf-90b6-7e2da9b08f83",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_ExposureGarageKeeper",
+    "isMaterialized": false,
+    "name": "dw.d_ExposureGarageKeeper",
+    "oid": "09c887e5-e2f8-4375-9374-dff1550aaf43",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

@@ -1,0 +1,66 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "UniqueKey",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "UniqueKey",
+            "oid": "e5c4be81-33d5-4045-9401-360e391d1212",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "SourceName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "SourceName",
+            "oid": "f01e1818-4d80-48f1-8e2f-dd2c99c86143",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "LineName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LineName",
+            "oid": "2c17fd58-5a9c-4a06-96b1-7a793bf533bf",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "LineName_Conformed",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LineName_Conformed",
+            "oid": "5a973e3e-2c07-481e-b35c-016102d97dcf",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_LineOfBusiness",
+    "isMaterialized": false,
+    "name": "dw.d_LineOfBusiness",
+    "oid": "9f76d0d9-5d7e-4ee9-b63c-f658a0e18255",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

@@ -1,0 +1,162 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "f8d90d14-4952-4672-8d1a-a9b99db177b2",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "aadeb9d8-d6ee-4420-ab91-c9240266096f",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Start",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Start",
+            "oid": "b598db1d-4329-4f21-914d-3694d55ce51a",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_End",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_End",
+            "oid": "385df10d-ab05-41fd-94c6-645789d5820f",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Current",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Current",
+            "oid": "221a8d0e-a22f-4d7f-bee3-c6de93f6b11d",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "QuoteID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "QuoteID",
+            "oid": "e99fe086-1fd7-4446-be7b-ffe1d76fba4b",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "SubLOB",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "SubLOB",
+            "oid": "cccb4a3d-a576-492e-9c81-c792266986cb",
+            "precision": 0,
+            "scale": 0,
+            "size": 100,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "LocationID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LocationID",
+            "oid": "911181d1-3298-4a40-89fb-abd94be1d833",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "2387accc-345a-4190-9ba6-b2f289780177",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "ClassCodeDescription",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ClassCodeDescription",
+            "oid": "f7a9e354-60b8-4299-abc9-1b7aa8c81462",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "ClassCode",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ClassCode",
+            "oid": "6ca702ef-81e8-4ce3-a61a-9fed9f8c6aba",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "ExposureKey",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ExposureKey",
+            "oid": "e11f9973-101f-484b-88b8-6b18d327253f",
+            "precision": 0,
+            "scale": 0,
+            "size": 112,
+            "type": 22
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_ExposureUmbrella",
+    "isMaterialized": false,
+    "name": "dw.d_ExposureUmbrella",
+    "oid": "eebcc49c-800e-42ad-a304-640ae3e4d291",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

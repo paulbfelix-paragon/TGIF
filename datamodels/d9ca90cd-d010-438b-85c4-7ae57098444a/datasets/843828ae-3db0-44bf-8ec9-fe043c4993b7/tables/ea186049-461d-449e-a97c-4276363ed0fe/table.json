@@ -1,0 +1,162 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "1cb78720-5b12-403f-9386-3d6a57776f71",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "1e43462e-f8e4-4a02-94e4-f6ad5910af8c",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Start",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Start",
+            "oid": "7d8d3c83-d037-4ae4-a440-9cbd70f2ba26",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_End",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_End",
+            "oid": "6dc6d586-2ad7-4daa-93cb-9a03a28b8f50",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Current",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Current",
+            "oid": "3787ca08-5359-43b8-a544-8b1115e448c5",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "ProgramID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProgramID",
+            "oid": "6206e809-2170-4a22-9b3e-5bf80b75ca3b",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "69cdd2f5-294c-4729-ab87-4c5eab7ab059",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "ProgramGuid",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProgramGuid",
+            "oid": "6873638e-63ad-49d5-8abb-fd720654cf96",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 14
+        },
+        {
+            "hidden": false,
+            "id": "Program",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Program",
+            "oid": "5445fd07-aa91-446f-8b8d-5dde67b5ba09",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "ProgramDescription",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProgramDescription",
+            "oid": "10177db1-b1db-4bc2-9cd7-854e962d345a",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "ParagonInceptionDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ParagonInceptionDate",
+            "oid": "df5054d7-b3af-4a8e-a111-44ccf9d522f1",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 31
+        },
+        {
+            "hidden": false,
+            "id": "ParagonDiscontinuedDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ParagonDiscontinuedDate",
+            "oid": "19638288-68bc-4d70-937a-e1dfeeacadc1",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 31
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_Program",
+    "isMaterialized": false,
+    "name": "dw.d_Program",
+    "oid": "ea186049-461d-449e-a97c-4276363ed0fe",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

@@ -1,0 +1,150 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "29f09311-aabc-4eb5-a70e-a38fff8d4403",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "a45a331f-afe4-44b4-a24a-aaf5e93f9def",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Start",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Start",
+            "oid": "adcd1a63-4cba-4c00-a13e-bd821235c4fa",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_End",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_End",
+            "oid": "fd03c83c-f69f-4c29-bca4-dfafd24dbb14",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Current",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Current",
+            "oid": "f3c9bc26-80f8-4363-8177-28366a2cafb5",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "QuoteID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "QuoteID",
+            "oid": "607690a7-596e-43bc-abcd-0c3ad11a7283",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LocationID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LocationID",
+            "oid": "7cb8a200-32e2-4d95-af3b-10c01ea07ac0",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "009eb85f-5414-4cbf-9570-2960b0397e22",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "ClassCodeDescription",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ClassCodeDescription",
+            "oid": "9ecf1a90-3560-459b-a416-deaae8c5ca91",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "ClassCode",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ClassCode",
+            "oid": "3145f67c-5b24-48b5-b844-4fed7443df77",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "ExposureKey",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ExposureKey",
+            "oid": "c10b0b33-08cd-4133-9c52-b13358ae9e70",
+            "precision": 0,
+            "scale": 0,
+            "size": 112,
+            "type": 22
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_ExposureBond",
+    "isMaterialized": false,
+    "name": "dw.d_ExposureBond",
+    "oid": "3a164d52-6c51-4f36-9477-cfdff71c3386",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

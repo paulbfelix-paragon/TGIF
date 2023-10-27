@@ -1,0 +1,198 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "59cf5d4f-0993-4ef5-b07f-57318b6dc407",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "c1858c61-ae2a-42f9-8114-60b8b606b375",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Start",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Start",
+            "oid": "9e159ae6-8825-434c-abe0-d27bbbf43739",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_End",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_End",
+            "oid": "d490901e-56ef-4832-a839-afa0679d2b25",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Current",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Current",
+            "oid": "6b646bdc-3205-4943-9a30-13c8d76b2ab7",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "a56d0312-dbf4-4d6d-8f25-47836caed202",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "SourceName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "SourceName",
+            "oid": "4329ef2f-e2b2-4f91-a825-b9d17c0f760c",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "SystemOfRecord",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "SystemOfRecord",
+            "oid": "89cf9f16-e975-43af-a94b-b405013880db",
+            "precision": 0,
+            "scale": 0,
+            "size": 150,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "Section",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Section",
+            "oid": "5306b0aa-bd79-4882-91ca-d63d69d6f239",
+            "precision": 0,
+            "scale": 0,
+            "size": 150,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "Key1",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Key1",
+            "oid": "d1d5cd39-81b0-4bcd-92e9-179d541705e2",
+            "precision": 0,
+            "scale": 0,
+            "size": 150,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "Key2",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Key2",
+            "oid": "1feba310-2a70-4adb-9244-a03ffd49b4ad",
+            "precision": 0,
+            "scale": 0,
+            "size": 150,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "Key3",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Key3",
+            "oid": "8caa0990-609c-432c-8a65-75b5c8699441",
+            "precision": 0,
+            "scale": 0,
+            "size": 150,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "Key4",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Key4",
+            "oid": "d34997f8-b943-42f0-9891-3614ac584322",
+            "precision": 0,
+            "scale": 0,
+            "size": 150,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "Key5",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Key5",
+            "oid": "e03ba4d8-515e-46d9-9183-fbc74bf5b7a2",
+            "precision": 0,
+            "scale": 0,
+            "size": 150,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "Notes",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Notes",
+            "oid": "5cc896a2-8b86-40a2-966e-e558f837f96b",
+            "precision": 0,
+            "scale": 0,
+            "size": 4000,
+            "type": 22
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_Source",
+    "isMaterialized": false,
+    "name": "dw.d_Source",
+    "oid": "3540dd20-db62-4689-bea8-d0494726ba36",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

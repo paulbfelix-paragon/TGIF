@@ -1,0 +1,150 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "4d3e81da-699f-4290-ae67-f2c2bd5a9be6",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_RecordTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_RecordTime",
+            "oid": "882628ae-14be-4447-a42b-7819604aa30e",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "FK_Location",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_Location",
+            "oid": "676c79f6-1577-48f3-83c8-d52458f6d8a5",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_Policy",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_Policy",
+            "oid": "3e9b0a5d-1df4-4056-b55d-d6b122f00674",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_PolicyTransaction",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_PolicyTransaction",
+            "oid": "c7e67a1a-a2ac-4bba-bf3b-ad9f4e379195",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_Source",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_Source",
+            "oid": "8715db1b-1e7a-4ec0-af81-7049f1f50487",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_State",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_State",
+            "oid": "32c26cf8-a713-4e62-a2d1-7f171533bbf3",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "RecordCount",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "RecordCount",
+            "oid": "022ea0d1-80f9-4a02-8cee-e526f0ee7127",
+            "precision": 3,
+            "scale": 0,
+            "size": 1,
+            "type": 20
+        },
+        {
+            "hidden": false,
+            "id": "AddDelIndicator",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "AddDelIndicator",
+            "oid": "790d1086-2493-47ab-a9f4-3fa5ee3202fe",
+            "precision": 0,
+            "scale": 0,
+            "size": 100,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "FK_LocationEffective",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_LocationEffective",
+            "oid": "62a7ce5e-114b-4b10-9d92-5bcf8c5ea5fb",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "FK_LocationExpirationDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FK_LocationExpirationDate",
+            "oid": "9a7ca4c6-d09a-42c5-ae04-3f3259cf2fe8",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "f_PolicyTransactionStateLocation",
+    "isMaterialized": false,
+    "name": "dw.f_PolicyTransactionStateLocation",
+    "oid": "4c6bdbd2-c997-497e-bd0a-68d244ecb3fa",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

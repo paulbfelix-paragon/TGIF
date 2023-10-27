@@ -1,0 +1,186 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "LFBI_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_ID",
+            "oid": "1b9ac83b-a346-4d2c-bb20-2724f48c3034",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_LoadTime",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_LoadTime",
+            "oid": "31d9eb49-34fd-4ad9-a67c-3c718e79edcb",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Start",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Start",
+            "oid": "b1f96124-4e5f-4a6e-9fd3-dbcffeda7d9d",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_End",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_End",
+            "oid": "b38128d5-515c-42d1-b2c2-a032e35cb584",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 33
+        },
+        {
+            "hidden": false,
+            "id": "LFBI_Current",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LFBI_Current",
+            "oid": "1cb06f16-45bd-4cd6-971b-51742e0054c5",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "SourceID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SourceID",
+            "oid": "f3177ba2-1908-4227-901e-77b6bfefeb6f",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "LOB",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LOB",
+            "oid": "b3ea442b-d7e8-4e43-bb77-02132999fd76",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "DeductibleLevel",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DeductibleLevel",
+            "oid": "aad8714a-9f64-4764-97cd-7f5b42578a25",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "DeductibleName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DeductibleName",
+            "oid": "6df0e604-f650-4d43-937d-34f86ecb4e70",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "DeductibleDefinition_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DeductibleDefinition_ID",
+            "oid": "aa03db3e-a378-4c09-935e-fb7eb2b1479d",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "DeductibleID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "DeductibleID",
+            "oid": "071c3aac-fe85-469b-969f-3bc1ba966309",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "ExposureScheduleItemID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ExposureScheduleItemID",
+            "oid": "48939946-07b1-49f3-818e-518fc6e46aab",
+            "precision": 10,
+            "scale": 0,
+            "size": 4,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "DeductibleUniqueID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DeductibleUniqueID",
+            "oid": "2f2ec00b-6bbe-4314-b65a-86a6ce366594",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 22
+        },
+        {
+            "hidden": false,
+            "id": "sublob",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "sublob",
+            "oid": "2a1a0e51-fcdb-4f5f-9d57-08bc6a24940d",
+            "precision": 0,
+            "scale": 0,
+            "size": 4,
+            "type": 22
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "843828ae-3db0-44bf-8ec9-fe043c4993b7",
+    "hidden": false,
+    "id": "d_Deductible",
+    "isMaterialized": false,
+    "name": "dw.d_Deductible",
+    "oid": "f21a8a34-e937-4a91-ab9f-4cb0aa262209",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}
