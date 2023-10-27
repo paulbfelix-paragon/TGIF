@@ -1,0 +1,188 @@
+{
+    "_dataSourcePermission": "edit",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "65380d27672382003382a020",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aDW2XwAav01",
+        "fullname": "localhost/DW2_v01",
+        "id": "localhost_aDW2XwAav01",
+        "live": false,
+        "title": "DW2_v01"
+    },
+    "desc": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[dw.d_Program.Program]",
+                            "index": 0
+                        },
+                        "instanceid": "6BCD0-75DB-78",
+                        "jaql": {
+                            "column": "Program",
+                            "datatype": "text",
+                            "dim": "[dw.d_Program.Program]",
+                            "merged": true,
+                            "table": "dw.d_Program",
+                            "title": "Program"
+                        },
+                        "panel": "rows"
+                    }
+                ],
+                "name": "rows"
+            },
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "sum([3C5DF-D7F])",
+                            "index": 1
+                        },
+                        "format": {
+                            "color": {
+                                "type": "color"
+                            },
+                            "mask": {
+                                "b": true,
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "t": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "B9923-902D-A7",
+                        "jaql": {
+                            "context": {
+                                "[3C5DF-D7F]": {
+                                    "column": "Premium",
+                                    "datatype": "numeric",
+                                    "dim": "[dw.f_PolicyTransactionLine.Premium]",
+                                    "subtotalAgg": "sum",
+                                    "table": "dw.f_PolicyTransactionLine",
+                                    "title": "Premium"
+                                }
+                            },
+                            "datatype": "numeric",
+                            "formula": "sum([3C5DF-D7F])",
+                            "title": "Premium",
+                            "type": "measure"
+                        },
+                        "panel": "measures"
+                    },
+                    {
+                        "field": {
+                            "id": "([7428E-BE7], all([18041-1E8]))",
+                            "index": 2
+                        },
+                        "format": {
+                            "color": {
+                                "type": "color"
+                            },
+                            "mask": {
+                                "b": true,
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "t": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "E1D0C-9E13-8F",
+                        "jaql": {
+                            "context": {
+                                "[18041-1E8]": {
+                                    "column": "LineName_Conformed",
+                                    "datatype": "text",
+                                    "dim": "[dw.d_LineOfBusiness.LineName_Conformed]",
+                                    "merged": true,
+                                    "table": "dw.d_LineOfBusiness",
+                                    "title": "LineName_Conformed"
+                                },
+                                "[7428E-BE7]": {
+                                    "agg": "sum",
+                                    "column": "TotalFees",
+                                    "datatype": "numeric",
+                                    "dim": "[dw.f_PolicyTransactionLine.TotalFees]",
+                                    "table": "dw.f_PolicyTransactionLine",
+                                    "title": "Total TotalFees"
+                                }
+                            },
+                            "datatype": "numeric",
+                            "formula": "([7428E-BE7], all([18041-1E8]))",
+                            "title": "Fees All",
+                            "type": "measure"
+                        },
+                        "panel": "measures"
+                    }
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "columns"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "65380e3b672382003382a025",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "filter",
+        "drillToAnywhere": true,
+        "selector": false,
+        "triggersDomready": true
+    },
+    "style": {
+        "automaticHeight": true,
+        "colors": {
+            "columns": false,
+            "headers": false,
+            "members": false,
+            "rows": true,
+            "totals": false
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "program",
+                    "plural": "Program",
+                    "singular": "Program",
+                    "title": "Program"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "pageSize": 25,
+        "scroll": false
+    },
+    "subtype": "pivot2",
+    "title": "",
+    "type": "pivot2"
+}

@@ -1,0 +1,59 @@
+{
+    "allowChangeSubscription": false,
+    "autoUpdateOnFiltersChange": true,
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aDW2XwAav01",
+        "fullname": "localhost/DW2_v01",
+        "id": "localhost_aDW2XwAav01",
+        "live": false,
+        "title": "DW2_v01"
+    },
+    "desc": "",
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "65380d27672382003382a020",
+    "settings": {
+        "autoUpdateOnFiltersChange": true,
+        "useAcceleration": false
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#f8943d",
+                "#364754",
+                "#f8943d"
+            ],
+            "name": "Paragon Custom Palette"
+        }
+    },
+    "subscription": {
+        "active": false,
+        "context": {
+            "dashboardid": "65380d27672382003382a020"
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "executionPerDay": 1,
+        "isDataChange": true,
+        "reportType": {
+            "inline": true
+        },
+        "schedule": "* * * * * *",
+        "startAt": "2023-10-24",
+        "timezone": 300,
+        "type": "onUpdate",
+        "tzName": "America/Chicago"
+    },
+    "title": "KristinaAndPaulTest",
+    "useAcceleration": false,
+    "widgets": [
+        "./widgets/65380d32672382003382a022/widget.json",
+        "./widgets/65380e3b672382003382a025/widget.json"
+    ]
+}
