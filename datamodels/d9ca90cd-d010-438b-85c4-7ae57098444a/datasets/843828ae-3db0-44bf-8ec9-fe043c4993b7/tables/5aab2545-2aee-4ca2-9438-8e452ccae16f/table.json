@@ -182,27 +182,6 @@
     "oid": "5aab2545-2aee-4ca2-9438-8e452ccae16f",
     "schemaName": "dw",
     "tupleTransformations": [
-        {
-            "arguments": {
-                "expression": {
-                    "expression": "Select 1",
-                    "isDatabaseDialect": false,
-                    "oid": "b8a97e04-3580-4e4b-b983-8822c3e8e9fa"
-                },
-                "hidden": false,
-                "id": "TGIF",
-                "indexed": true,
-                "isUpsertBy": false,
-                "lastUpdated": "2023-10-27T16:55:38.212Z",
-                "name": "TGIF",
-                "oid": "295a4c35-2375-4965-9fc7-c98b9ec044d4",
-                "precision": 0,
-                "scale": 0,
-                "size": 0,
-                "type": 8
-            },
-            "type": "add-column"
-        }
     ],
     "type": "base"
 }
